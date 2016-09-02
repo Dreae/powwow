@@ -1,0 +1,3 @@
+package: github.com/dreae/powwow
+import:
+- package: github.com/julienschmidt/httprouter

@@ -1,0 +1,30 @@
+{
+  "name": "powwow",
+  "version": "1.0.0",
+  "description": "Go bulletin boards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreae/powwow.git"
+  },
+  "author": "Dreae <dreae@dreae.onl>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dreae/powwow/issues"
+  },
+  "homepage": "https://github.com/Dreae/powwow#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "exports-loader": "^0.6.3",
+    "mustache": "^2.2.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
+  }
+}
