@@ -1,5 +1,5 @@
-import * as $ from "jquery";
-import * as Mustache from "mustache";
 import { AppRoot } from "./AppMain";
+import { App } from "powwow-js";
 
-console.log(Mustache.render(AppRoot.template));
+let app = new App();
+app.bind(AppRoot);

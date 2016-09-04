@@ -1,7 +1,8 @@
-import * as Mustache from "mustache";
+import { Tag } from "powwow-js";
+import * as Handlebars from "handlebars";
+import * as template from "handlebars-loader!./templates/test.handlebars";
 
-export class AppRoot {
-	static template =  `
-		<h1>Hello world</h1>
-	`
-}
+export class AppRoot extends Tag {
+	static tagName = "AppRoot";
+	template =  Handlebars.template(template);
+} 
